@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+    <section id="form">
+        <h1 align="center">Form</h1>
+        <div class="card">
+            <h3>Select</h3>
+            <select name="jurusan">
+                <option value="informatika">Teknik Informatika</option>
+                <option value="komputer">Teknik Komputer</option>
+                <option value="telekomunikasi">Teknik Telekomunikasi</option>
+                <option value="elektronika">Teknik Elektronika</option>
+            </select>
+        
+            <br>
+        
+            <input type="checkbox" name="jurusan2" value="informatika"> Teknik Informatika<br>
+            <input type="checkbox" name="jurusan2" value="komputer"> Teknik Komputer<br>
+            <input type="checkbox" name="jurusan2" value="telekomunikasi"> Teknik Telekomunikasi<br>
+            <input type="checkbox" name="jurusan2" value="elektronika"> Teknik Elektronika<br>
+        </body>
+        </div>
+        <div class="card">
+            <h3>Form Input</h3>
+            <form action="#" method="post">
+        
+                <fieldset>
+                    <legend>Input Dasar</legend>
+        
+                    <label for="text">Teks:</label>
+                    <input type="text" id="text" name="text" value="xyz"><br><br>
+        
+                    <label for="password">Kata Sandi:</label>
+                    <input type="password" id="password" name="password" value="*****"><br><br>
+        
+                    <label>Pilihan Radio:</label>
+                    <input type="radio" id="radio1" name="radio" value="tidak">
+                    <label for="radio1">Tidak</label>
+                    <input type="radio" id="radio2" name="radio" value="ya">
+                    <label for="radio2">Ya</label><br><br>
+        
+                    <label>Centang:</label>
+                    <input type="checkbox" id="checkbox1" name="checkbox">
+                    <input type="checkbox" id="checkbox2" name="checkbox">
+                    <input type="checkbox" id="checkbox3" name="checkbox" checked><br><br>
+        
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Tombol & Unggah File</legend>
+        
+                    <label>Tombol:</label>
+                    <input type="button" value="Tombol"><br><br>
+        
+                    <label for="color">Pilih Warna:</label>
+                    <input type="color" id="color" name="color"><br><br>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value="xyz@gmail.com"><br><br>
+        
+                    <label for="file">Unggah File:</label>
+                    <input type="file" id="file" name="file"><br><br>
+        
+                    <input type="hidden" name="hidden_value" value="rahasia"><br><br>
+        
+                    <label for="image">Tombol Gambar:</label>
+                    <input type="image" id="image" src="https://www.computerhope.com/jargon/t/table.gif" alt="Kirim Gambar"><br><br>
+        
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Bidang Tambahan</legend>
+        
+                    <label for="number">Angka:</label>
+                    <input type="number" id="number" name="number" value="898"><br><br>
+        
+                    <label for="textarea">Kotak Teks:</label><br>
+                    <textarea id="textarea" name="textarea" rows="4" cols="30">Masukkan teks di sini...</textarea><br><br>
+        
+                </fieldset>
+        
+                <input type="submit" value="Kirim">
+        
+            </form>
+        </div>
+    </section>
+</body>
+</html>
